@@ -10,6 +10,7 @@
   <project name="andi34/prebuilt_chromium" 
            path="external/chromium-prebuilt"
            remote="github" revision="master" clone-depth="1" />
+  <project name="MSe1969/android_vendor_extra" path="vendor/extra" remote="github" revision="kk4.4"  />
 
   <!-- Prebuilt Kitkat Webview -->
   <project name="MSe1969/android_kitkat_prebuilt_webview" 
@@ -27,9 +28,5 @@
   <project name="MSe1969/SlimRoms_system_core" path="system/core" remote="github" revision="kk4.4-ste" />
   <remove-project name="SlimRoms/packages_apps_Camera2" />
   <project name="andi34/SlimRoms_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="kk4.4" />
-
-  <!-- Temp. vendor/slim -->
-  <remove-project name="vendor_slim" />
-  <project name="MSe1969/vendor_slim" path="vendor/slim" remote="github" revision="kk4.4" />
 
 </manifest>
