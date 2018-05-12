@@ -17,6 +17,9 @@
            path="external/chromium-webview"
            remote="github" revision="kk4.4" clone-depth="1" />
 
+  <!-- z_patches root-scripts -->
+  <project name="MSe1969/z_patches" path="z_patches" remote="github" revision="kk4.4" />
+
   <!-- Repositories with STE hardware patch, branch kk4.4-ste-->
   <remove-project name="frameworks_av" />
   <project name="MSe1969/SlimRoms_frameworks_av" path="frameworks/av" remote="github" revision="kk4.4-ste" />
