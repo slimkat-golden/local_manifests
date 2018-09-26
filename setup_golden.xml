@@ -13,7 +13,7 @@
   <project name="MSe1969/android_vendor_extra" path="vendor/extra" remote="github" revision="kk4.4"  />
 
   <!-- Prebuilt Kitkat Webview -->
-  <project name="MSe1969/SlimKAT_prebuilt_webview" 
+  <project name="MSe1969/KitKat_prebuilt_webview" 
            path="external/chromium-webview"
            remote="github" revision="kk4.4" clone-depth="1" />
 
