@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Samsung S3 Mini (golden) -->
-  <project name="andi34/android_device_samsung_golden" path="device/samsung/golden" remote="github" revision="kk4.4"/>  
-  <project name="andi34/android_kernel_samsung_golden" path="kernel/samsung/golden" remote="github" revision="blackhawk2.1"/>  
-  <project name="andi34/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="kk4.4"/>  
-  <project name="andi34/android_hardware_u8500" path="hardware/u8500" remote="github" revision="kk4.4"/>  
+  <project name="slimkat-golden/android_device_samsung_golden" path="device/samsung/golden" remote="github" revision="kk4.4"/>  
+  <project name="slimkat-golden/android_kernel_samsung_golden" path="kernel/samsung/golden" remote="github" revision="blackhawk2.1"/>  
+  <project name="slimkat-golden/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="kk4.4"/>  
+  <project name="slimkat-golden/android_hardware_u8500" path="hardware/u8500" remote="github" revision="kk4.4"/>  
   
   <!-- Prebuilt Chromium ('Bromite' fork) -->
-  <project name="MSe1969/KitKat_Bromite-prebuilt" 
+  <project name="slimkat-golden/KitKat_Bromite-prebuilt" 
            path="external/bromite-prebuilt" 
            clone-depth="1" remote="github" revision="master" />
-  <project name="MSe1969/android_vendor_extra" path="vendor/extra" remote="github" revision="kk4.4"  />
+  <project name="slimkat-golden/android_vendor_extra" path="vendor/extra" remote="github" revision="kk4.4"  />
 
   <!-- Prebuilt Kitkat Webview -->
-  <project name="MSe1969/SlimKAT_prebuilt_webview" 
+  <project name="slimkat-golden/KitKat_prebuilt_webview" 
            path="external/chromium-webview"
            remote="github" revision="kk4.4" clone-depth="1" />
 
   <!-- z_patches root-scripts -->
-  <project name="MSe1969/z_patches" path="z_patches" remote="github" revision="kk4.4" />
+  <project name="slimkat-golden/z_patches" path="z_patches" remote="github" revision="kk4.4" />
 
   <!-- Repositories with STE hardware patch, branch kk4.4-ste-->
   <remove-project name="frameworks_av" />
-  <project name="MSe1969/SlimRoms_frameworks_av" path="frameworks/av" remote="github" revision="kk4.4-ste" />
+  <project name="slimkat-golden/SlimRoms_frameworks_av" path="frameworks/av" remote="github" revision="kk4.4-ste" />
   <remove-project name="frameworks_base" />
-  <project name="MSe1969/SlimRoms_frameworks_base" path="frameworks/base" remote="github" revision="kk4.4-ste" />
+  <project name="slimkat-golden/SlimRoms_frameworks_base" path="frameworks/base" remote="github" revision="kk4.4-ste" />
   <remove-project name="frameworks_native" />
-  <project name="MSe1969/SlimRoms_frameworks_native" path="frameworks/native" remote="github" revision="kk4.4-ste" />
+  <project name="slimkat-golden/SlimRoms_frameworks_native" path="frameworks/native" remote="github" revision="kk4.4-ste" />
   <remove-project name="system_core" />
-  <project name="MSe1969/SlimRoms_system_core" path="system/core" remote="github" revision="kk4.4-ste" />
+  <project name="slimkat-golden/SlimRoms_system_core" path="system/core" remote="github" revision="kk4.4-ste" />
   <remove-project name="SlimRoms/packages_apps_Camera2" />
-  <project name="andi34/SlimRoms_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="kk4.4" />
+  <project name="slimkat-golden/SlimRoms_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="kk4.4" />
 
 </manifest>
