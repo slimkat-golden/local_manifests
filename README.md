@@ -7,9 +7,9 @@ follow the steps below:
 Create the directory, which should hold your build tree, 'cd' into it
 and run the following commands:
 ```Shell session
-repo init -u https://github.com/SlimRomsSecurity/platform_manifest.git -b kk4.4
+repo init -u https://github.com/slimkat-golden/platform_manifest.git -b kk4.4
 cd .repo
-git clone https://github.com/MSe1969/local_manifests
+git clone https://github.com/slimkat-golden/local_manifests
 cd local_manifests
 git checkout kk4.4
 cd ../..
