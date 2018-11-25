@@ -6,10 +6,10 @@
   <project name="andi34/android_vendor_samsung_golden" path="vendor/samsung/golden" remote="github" revision="kk4.4"/>  
   <project name="andi34/android_hardware_u8500" path="hardware/u8500" remote="github" revision="kk4.4"/>  
   
-  <!-- Prebuilt Chromium -->
-  <project name="andi34/prebuilts_chromium" 
-           path="external/chromium-prebuilt"
-           remote="github" revision="master" clone-depth="1" />
+  <!-- Prebuilt Chromium ('Bromite' fork) -->
+  <project name="MSe1969/KitKat_Bromite-prebuilt" 
+           path="external/bromite-prebuilt" 
+           clone-depth="1" remote="github" revision="master" />
   <project name="MSe1969/android_vendor_extra" path="vendor/extra" remote="github" revision="kk4.4"  />
 
   <!-- Prebuilt Kitkat Webview -->
